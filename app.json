@@ -4,6 +4,7 @@
     "slug": "aluminium-window-calculator",
     "version": "10.1.0",
     "orientation": "portrait",
+    "newArchEnabled": false,
     "android": {
       "package": "com.sanmatialuminium.windowcalculator"
     }

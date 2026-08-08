@@ -14,7 +14,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: "20"
 
       - name: Install dependencies
         run: npm install
@@ -22,7 +22,7 @@ jobs:
       - name: Install EAS CLI
         run: npm install -g eas-cli
 
-      -  name: Check Expo config
+      - name: Check Expo config
         run: npx expo config --json
 
       - name: Initialize EAS project

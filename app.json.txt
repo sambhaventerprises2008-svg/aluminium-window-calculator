@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Aluminium Window Calculator",
+    "slug": "aluminium-window-calculator",
+    "version": "10.1.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.sanmatialuminium.windowcalculator"
+    }
+  }
